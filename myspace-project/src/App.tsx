@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import About from './components/About';
+import Friends from './components/Friends';
 import Header from './components/Header';
 import sendMessageIcon from './icons/send-message.png';
 import forwardIcon from './icons/forward.png';
@@ -16,9 +17,7 @@ const App: React.FC = () => {
     <div className="myspace-page">
       <Header />
 
-      <nav>
-        <a href="#">Home</a> | <a href="#">Browse</a> | <a href="#">Search</a> | <a href="#">Invite</a> | <a href="#">Film</a> | <a href="#">Mail</a> | <a href="#">Blog</a> | <a href="#">Favorites</a> | <a href="#">Forum</a> | <a href="#">Groups</a> | <a href="#">Events</a> | <a href="#">Videos</a> | <a href="#">Music</a> | <a href="#">Comedy</a> | <a href="#">Classifieds</a>
-      </nav>
+
 
       <main className="profile-layout">
         <div className="left-column">
@@ -67,6 +66,7 @@ const App: React.FC = () => {
             <p>I'm here to help you with MySpace. Send me a message if you're confused by anything. Before asking me a question, please check the FAQ to see if your question has already been answered.</p>
             <p>I may have been on your friend list when you signed up. If you don't want me to be, click "Edit Friends" and remove me!</p>
           </div>
+          <Friends />
         </div>
       </main>
     </div>

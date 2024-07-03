@@ -1,5 +1,5 @@
 .header {
-    background-color: #3b5998;
+    background-color: rgb(0, 51, 153);
     color: white;
     padding: 10px;
 }
@@ -27,4 +27,25 @@
     color: #3b5998;
     border: none;
     cursor: pointer;
+}
+
+.header-nav {
+    background-color: #6699CC;
+    padding: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
 }

@@ -40,18 +40,6 @@ textarea {
   white-space: nowrap;
 }
 
-nav {
-  background-color: #6699CC;
-  padding: 10px;
-  overflow-x: auto;
-  white-space: nowrap;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  padding: 0 5px;
-}
 
 .profile-layout {
   display: flex;
@@ -129,6 +117,19 @@ nav a {
   .contact-buttons {
     grid-template-columns: 1fr;
   }
+
+  .network-status {
+    width: 40%;
+  }
+
+  .blog-entries {
+    width: 40%;
+  }
+
+  .blurbs {
+    width: 40%;
+  }
+
 }
 
 .network-status {
@@ -173,6 +174,18 @@ h3 {
   .logo,
   .search-bar {
     margin-bottom: 0;
+  }
+
+  .network-status {
+    width: 100%;
+  }
+
+  .blog-entries {
+    width: 100%;
+  }
+
+  .blurbs {
+    width: 100%;
   }
 }
 
