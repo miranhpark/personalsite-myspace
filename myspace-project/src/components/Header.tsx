@@ -16,7 +16,7 @@ const Header: React.FC = () => {
                     <input type="text" />
                     <button>Search</button>
                 </div>
-                <div className="user-actions">
+                <div className="header-user-actions">
                     <a href="#">Help</a> | <a href="#">SignUp</a>
                 </div>
             </div>

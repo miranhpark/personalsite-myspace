@@ -1,6 +1,5 @@
 .header {
     background-color: rgb(0, 51, 153);
-    margin-top: -10px;
 }
 
 .header-row {
@@ -24,7 +23,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: auto;
-    width: 60%;
+    width: 50%;
 }
 
 .header-search input {
@@ -39,12 +38,12 @@
     font-size: 8pt;
 }
 
-.user-actions {
+.header-user-actions {
     color: white;
     padding-right: 10px;
 }
 
-.user-actions a {
+.header-user-actions a {
     text-decoration: none;
     color: white;
     margin-left: auto;
@@ -65,8 +64,30 @@
 }
 
 @media screen and (max-width: 480px) {
-    .header {
-        display: flex;
+    .header-row {
         flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .header-left {
+        color: white;
+        padding: 10px;
+        margin: auto;
+    }
+
+    .header-search {
+        padding: 5px;
+        padding-left: 10px;
+        margin: auto;
+        width: 100%;
+    }
+
+    .header-user-actions {
+        padding: 10px;
+        margin: auto;
+    }
+
+    .header-user-actions a {
+        margin: auto;
     }
 }

@@ -26,7 +26,7 @@ body {
 }
 
 .left-column {
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 .left-column,
@@ -35,7 +35,7 @@ body {
 }
 
 .myspace-page {
-  width: 45%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -74,11 +74,18 @@ h3 {
   }
 
   .left-column {
+    padding-left: 20px;
     padding-right: 20px;
   }
 
   .right-column {
+    padding-left: 20px;
+    padding-right: 20px;
     flex-grow: 1;
+  }
+
+  .network-status {
+    margin-top: 30px;
   }
 }
 

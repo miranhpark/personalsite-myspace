@@ -26,8 +26,8 @@ function networkStatus() {
 
 const App: React.FC = () => {
   return (
-    <div className="myspace-page">
-      <Background>
+    <Background>
+      <div className="myspace-page">
         <Header />
         <main className="profile-layout">
           <div className="left-column">
@@ -41,8 +41,8 @@ const App: React.FC = () => {
             <Friends />
           </div>
         </main>
-      </Background>
-    </div >
+      </div >
+    </Background>
   );
 }
 
