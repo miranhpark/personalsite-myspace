@@ -9,7 +9,7 @@ const Header: React.FC = () => {
                 <div className="header-search">
                     <form>
                         <label htmlFor="web">The Web</label>
-                        <input type="radio" id="web" name="header-search" checked />
+                        <input type="radio" id="web" name="header-search" onChange={() => { }} checked />
                         <label htmlFor="myspace">Myspace</label>
                         <input type="radio" id="myspace" name="header-search" />
                     </form>

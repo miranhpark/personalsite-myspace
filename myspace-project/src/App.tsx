@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import About from './components/About';
+import Background from './components/Background';
 import Blurbs from './components/Blurbs';
 import Contact from './components/Contact';
 import Friends from './components/Friends';
@@ -26,20 +27,22 @@ function networkStatus() {
 const App: React.FC = () => {
   return (
     <div className="myspace-page">
-      <Header />
-      <main className="profile-layout">
-        <div className="left-column">
-          <About />
-          <Contact />
-          {myspaceUrl()}
-        </div>
-        <div className="right-column">
-          {networkStatus()}
-          <Blurbs />
-          <Friends />
-        </div>
-      </main>
-    </div>
+      <Background>
+        <Header />
+        <main className="profile-layout">
+          <div className="left-column">
+            <About />
+            <Contact />
+            {myspaceUrl()}
+          </div>
+          <div className="right-column">
+            {networkStatus()}
+            <Blurbs />
+            <Friends />
+          </div>
+        </main>
+      </Background>
+    </div >
   );
 }
 

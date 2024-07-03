@@ -25,6 +25,10 @@ body {
   padding: 20px 0;
 }
 
+.left-column {
+  padding-left: 10px;
+}
+
 .left-column,
 .right-column {
   width: 100%;
