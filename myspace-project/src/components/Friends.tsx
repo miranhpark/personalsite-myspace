@@ -1,51 +1,30 @@
 import React from 'react';
 import './Friends.css';
 
+function friend(friendName: string, friendImage: string) {
+    return (
+        <div className="friend">
+            <img src={friendImage} alt={friendName} />
+            <p>{friendName}</p>
+        </div>
+    )
+}
+
 const Friends: React.FC = () => {
     return (
         <div className="friends">
             <h2>Friends</h2>
-            <div className="friend-list">
-                <div className="friend-column-1">
-                    <div className="friend">
-                        <img src="https://via.placeholder.com/50" alt="Friend 1" />
-                        <p>Friend 1</p>
-                    </div>
-                    <div className="friend">
-                        <img src="https://via.placeholder.com/50" alt="Friend 2" />
-                        <p>Friend 2</p>
-                    </div>
-                </div>
-                <div className="friend-column-2">
-                    <div className="friend">
-                        <img src="https://via.placeholder.com/50" alt="Friend 1" />
-                        <p>Friend 1</p>
-                    </div>
-                    <div className="friend">
-                        <img src="https://via.placeholder.com/50" alt="Friend 2" />
-                        <p>Friend 2</p>
-                    </div>
-                </div>
-                <div className="friend-column-3">
-                    <div className="friend">
-                        <img src="https://via.placeholder.com/50" alt="Friend 1" />
-                        <p>Friend 1</p>
-                    </div>
-                    <div className="friend">
-                        <img src="https://via.placeholder.com/50" alt="Friend 2" />
-                        <p>Friend 2</p>
-                    </div>
-                </div>
-                <div className="friend-column-4">
-                    <div className="friend">
-                        <img src="https://via.placeholder.com/50" alt="Friend 1" />
-                        <p>Friend 1</p>
-                    </div>
-                    <div className="friend">
-                        <img src="https://via.placeholder.com/50" alt="Friend 2" />
-                        <p>Friend 2</p>
-                    </div>
-                </div>
+            <div className="friend-row">
+                {friend("Friend 1", "https://via.placeholder.com/50")}
+                {friend("Friend 2", "https://via.placeholder.com/50")}
+                {friend("Friend 3", "https://via.placeholder.com/50")}
+                {friend("Friend 4", "https://via.placeholder.com/50")}
+            </div>
+            <div className="friend-row">
+                {friend("Friend 5", "https://via.placeholder.com/50")}
+                {friend("Friend 6", "https://via.placeholder.com/50")}
+                {friend("Friend 7", "https://via.placeholder.com/50")}
+                {friend("Friend 8", "https://via.placeholder.com/50")}
             </div>
         </div>
     );

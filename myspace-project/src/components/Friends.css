@@ -1,7 +1,13 @@
-.friend-list {
+.friends {
+    display: flex;
+    flex-direction: column;
+}
+
+.friend-row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
 }
 
 .friend {
@@ -9,7 +15,7 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    margin: 30px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -20,10 +26,9 @@
     width: 50px;
 }
 
+
 @media screen and (max-width: 480px) {
-    .friend-list {
-        display: flex;
+    .friend-row {
         flex-direction: column;
-        width: 40%;
     }
 }

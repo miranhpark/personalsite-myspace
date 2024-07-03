@@ -15,21 +15,23 @@ const About: React.FC = () => {
                 </div>
             </div>
             <div className="right-column">
-                <div className="user-info">
-                    <p>"*o)*"</p>
-                    <p>Male</p>
-                    <p>30 years old</p>
-                    <p>Santa Monica,</p>
-                    <p>California</p>
-                    <p>United States</p>
+                <div className="about-status">
+                    "*o)*"<br></br>
                 </div>
-                <div className="last-login">
-                    Last Login:
-                    8/27/2006
+                <div className="about-info">
+                    Male<br></br>
+                    30 years old<br></br>
+                    Santa Monica,<br></br>
+                    California<br></br>
+                    United States<br></br>
+                </div>
+                <div className="about-login">
+                    Last Login:<br></br>
+                    8/27/2006<br></br>
                 </div>
             </div>
 
-        </div>
+        </div >
     );
 };
 
