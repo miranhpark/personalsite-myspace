@@ -1,0 +1,22 @@
+.friends {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.friend-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.friend {
+    margin: 10px;
+    text-align: center;
+}
+
+.friend img {
+    border-radius: 50%;
+    width: 50px;
+}

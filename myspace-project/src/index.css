@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.myspace-page {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #003399;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #6699CC;
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.profile-layout {
+  display: flex;
+}
+
+.left-column {
+  width: 300px;
+  padding-right: 20px;
+}
+
+.right-column {
+  flex-grow: 1;
+}
+
+.contact-box,
+.myspace-url {
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.network-status {
+  border: 1px solid #CCCCCC;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.blurbs {
+  background-color: #FFCC99;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Add more specific styles to match the exact look */
