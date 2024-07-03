@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
+@font-face {
+  font-family: 'Rainy Hearts';
+  src: url('/rainyhearts.ttf') format('truetype');
+}
+
+:root {
+  --border-pink: #fcc7e5;
+  --background-pink: #fff1f9;
+  /* --font-purple: #E0CDFB; */
+  --font-purple: #8f4eff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -12,8 +24,8 @@ div,
 textarea,
 button {
   font-family: "Pixelify Sans", verdana, arial, sans-serif, helvetica;
-  font-size: 10pt;
-  color: #000000;
+  font-size: 12pt;
+  color: var(--font-purple);
   font-weight: normal;
 }
 
@@ -43,8 +55,9 @@ body {
 }
 
 .myspace-url {
-  font-size: 8pt;
-  border: 1px solid #000000;
+  font-size: 9pt;
+  border: 1px dotted var(--border-pink);
+  background-color: var(--background-pink);
   margin-top: 10px;
   padding: 0px 0px 13px 3px;
   line-height: 0px;
@@ -58,7 +71,8 @@ body {
   font-weight: bold;
   text-align: center;
   line-height: 20px;
-  border: 2px solid #000000;
+  border: 1px dotted var(--border-pink);
+  background-color: var(--background-pink);
 }
 
 h1,

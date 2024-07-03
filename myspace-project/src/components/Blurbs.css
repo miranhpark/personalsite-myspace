@@ -2,6 +2,11 @@
     margin-top: 30px;
 }
 
+.blurbs h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
 .blurbs-header {
     background-color: #FFCC99;
 }

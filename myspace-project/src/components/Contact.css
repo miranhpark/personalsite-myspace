@@ -1,16 +1,16 @@
 .contact-box {
-    border: 1px solid #CCCCCC;
+    border: 2px dotted var(--border-pink);
     padding: 10px;
     margin-top: 10px;
-    background-color: #F1F1F1;
+    background-color: var(--background-pink);
 }
 
 .contact-box h3 {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 0.9em;
+    font-size: 1em;
     color: #333;
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom: 1px solid var(--border-pink);
     padding-bottom: 5px;
 }
 
@@ -25,20 +25,20 @@
     align-items: center;
     width: 100%;
     padding: 5px;
-    background-color: #FFFFFF;
-    border: 1px solid #CCCCCC;
+    background-color: #fffafd;
+    border: 1px dotted var(--border-pink);
     cursor: pointer;
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: left;
     transition: background-color 0.3s;
 }
 
 .contact-box button:hover {
-    background-color: #E6E6E6;
+    background-color: #ffdff1;
 }
 
 .contact-box button img {
-    width: 16px;
-    height: 16px;
-    margin-right: 5px;
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
 }
