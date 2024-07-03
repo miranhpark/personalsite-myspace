@@ -1,18 +1,30 @@
 .header {
-    background-color: #e3e3e3;
-    padding: 20px;
+    background-color: #3b5998;
+    color: white;
+    padding: 10px;
 }
 
-.profile-pic {
-    border-radius: 50%;
-    width: 150px;
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header h1 {
-    margin: 10px 0 5px 0;
+.header-links a,
+.header-actions a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
 }
 
-.header h2 {
-    margin: 5px 0;
-    color: #555;
+.header-search input {
+    padding: 5px;
+}
+
+.header-search button {
+    padding: 5px 10px;
+    background-color: white;
+    color: #3b5998;
+    border: none;
+    cursor: pointer;
 }
