@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
+import TinkerbellEffect from './components/Cursor.tsx';
 import About from './components/About';
 import Background from './components/Background';
 import Blurbs from './components/Blurbs';
 import Contact from './components/Contact';
 import Friends from './components/Friends';
 import Header from './components/Header';
+import Snowfall from './components/Snowfall.tsx';
+
 
 function myspaceUrl() {
   return (
@@ -27,6 +30,8 @@ function networkStatus() {
 const App: React.FC = () => {
   return (
     <Background>
+      <TinkerbellEffect />
+      <Snowfall />
       <div className="myspace-page">
         <Header />
         <main className="profile-layout">

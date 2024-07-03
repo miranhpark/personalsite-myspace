@@ -5,7 +5,7 @@ const Header: React.FC = () => {
     return (
         <div className="header">
             <div className="header-row">
-                <div className="header-left">MySpace.com | Home</div>
+                <div className="header-left"><a href="#">MySpace.com</a> | <a href="#">Home</a></div>
                 <div className="header-search">
                     <form>
                         <label htmlFor="web">The Web</label>

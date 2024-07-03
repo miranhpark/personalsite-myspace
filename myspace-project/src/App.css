@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -7,9 +9,10 @@ td,
 li,
 p,
 div,
-textarea {
-  font-family: verdana, arial, sans-serif, helvetica;
-  font-size: 8pt;
+textarea,
+button {
+  font-family: "Pixelify Sans", verdana, arial, sans-serif, helvetica;
+  font-size: 10pt;
   color: #000000;
   font-weight: normal;
 }

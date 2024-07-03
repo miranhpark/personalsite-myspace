@@ -17,6 +17,11 @@
     margin-right: auto;
 }
 
+.header-left a {
+    color: white;
+    text-decoration: none;
+}
+
 .header-search {
     color: white;
     display: flex;
