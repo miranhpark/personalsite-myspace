@@ -34,12 +34,12 @@
 }
 
 .contact-box button:hover:after {
-    content: attr(data-tooltip);
+    content: "the internet is dead 💖";
     position: absolute;
     left: 50%;
     bottom: 50%;
     margin-left: 3px;
-    background: rgba(252, 199, 229, 0.5);
+    background: var(--tooltip-hover);
     padding: 10px;
     border: 2px dotted var(--border-pink);
     border-radius: 3px;

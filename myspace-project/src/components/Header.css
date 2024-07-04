@@ -22,6 +22,21 @@
     text-decoration: none;
 }
 
+.header-left a:hover:after {
+    content: "the internet is dead 💖";
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 20px;
+    background: var(--tooltip-hover);
+    padding: 10px;
+    border: 2px dotted var(--border-pink);
+    border-radius: 3px;
+    z-index: 1;
+    width: auto;
+    font-size: 9pt;
+    color: var(--font-purple);
+}
+
 .header-search {
     color: white;
     display: flex;
@@ -54,6 +69,21 @@
     margin-left: auto;
 }
 
+.header-user-actions a:hover:after {
+    content: "the internet is dead 💖";
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 20px;
+    background: var(--tooltip-hover);
+    padding: 10px;
+    border: 2px dotted var(--border-pink);
+    border-radius: 3px;
+    z-index: 1;
+    width: auto;
+    font-size: 9pt;
+    color: var(--font-purple);
+}
+
 .header-nav {
     background-color: var(--background-dark-pink);
     padding: 7px 5px;
@@ -68,6 +98,21 @@
     color: white;
     text-decoration: none;
     padding: 0px;
+}
+
+.header-nav a:hover:after {
+    content: "the internet is dead 💖";
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -40px;
+    background: var(--tooltip-hover);
+    padding: 10px;
+    border: 2px dotted var(--border-pink);
+    border-radius: 3px;
+    z-index: 1;
+    width: auto;
+    font-size: 9pt;
+    color: var(--font-purple);
 }
 
 @media screen and (max-width: 480px) {

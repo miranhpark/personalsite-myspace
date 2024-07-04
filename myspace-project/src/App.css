@@ -19,12 +19,13 @@
   --border-pink: #fcc7e5;
   --background-pink: #ffeaf6;
   --background-light-pink: #fff6fb;
-  --background-dark-pink: #ff97d5;
+  --background-dark-pink: #ff8bb6;
   --header-pink: #ff90b5;
   --header-purple: rgb(137, 112, 237);
-  --font-pink: #ff7dba;
+  --font-pink: #f54c9b;
   /* --font-purple: #E0CDFB; */
   --font-purple: #834feb;
+  --tooltip-hover: rgba(252, 199, 229, 0.8);
 }
 
 * {
@@ -81,6 +82,25 @@ body {
   margin-top: 10px;
   padding: 0px 0px 13px 3px;
   line-height: 0px;
+}
+
+.myspace-url a {
+  color: var(--font-purple);
+  text-decoration: none;
+}
+
+.myspace-url a:hover:after {
+  content: "the internet is dead 💖";
+  position: absolute;
+  margin-left: -75px;
+  margin-top: -30px;
+  background: rgba(252, 199, 229, 0.5);
+  padding: 15px;
+  border: 2px dotted var(--border-pink);
+  border-radius: 3px;
+  z-index: 1;
+  width: auto;
+  font-size: 9pt;
 }
 
 .myspace-url h4 {

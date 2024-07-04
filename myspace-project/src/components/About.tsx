@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './About.css';
 
-const images = [
+import shinePink from '/assets/icons/stars/animated/shine-purple.gif';
+
+const profileImages = [
     '200.webp',
     'tired-software-engineer.gif'
 ]
@@ -12,12 +14,21 @@ const statuses = [
     'with u'
 ]
 
+function aboutTitle(title: string, titleText: string) {
+    return (
+        <div className='about-title'>
+            <img src={shinePink} alt="" />{title}:<img src={shinePink} alt="" />
+            <div className='about-title-text'>{titleText}</div>
+        </div>
+    )
+}
+
 const About: React.FC = () => {
     const [profilePic, setProfilePic] = useState('');
     const [status, setStatus] = useState('')
 
     useEffect(() => {
-        const randomImage = images[Math.floor(Math.random() * images.length)];
+        const randomImage = profileImages[Math.floor(Math.random() * profileImages.length)];
         const imagePath = `/assets/images/${randomImage}`;
         setProfilePic(imagePath);
 
@@ -28,9 +39,9 @@ const About: React.FC = () => {
     return (
         <div className="about">
             <div className="left-column">
-                <h1>Tom</h1>
+                <h1>panda</h1>
                 <div className="about-profile-image">
-                    <img src={profilePic} alt="Tom's profile picture" />
+                    <img src={profilePic} alt="profile picture" />
                 </div>
                 <div className="about-view-links">
                     View My: <a href="#">Pics</a> | <a href="#">Videos</a>
@@ -41,14 +52,13 @@ const About: React.FC = () => {
                     "{status}"<br></br>
                 </div>
                 <div className="about-info">
-                    nonbinary<br></br>
-                    old af<br></br>
-                    location:<br></br>
-                    existential purgatory<br></br>
+                    {aboutTitle("gender", "nonbinary")}
+                    {aboutTitle("age", "tummy hurt")}
+                    {aboutTitle("location", "existential purgatory")}
                 </div>
                 <div className="about-login">
                     Last Login:<br></br>
-                    01/01/2000<br></br>
+                    01/01/2001<br></br>
                 </div>
             </div>
 

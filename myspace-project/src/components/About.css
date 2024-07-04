@@ -38,3 +38,27 @@
 .about-view-links a {
     color: var(--font-pink);
 }
+
+.about-view-links a:hover:after {
+    content: "the internet is dead 💖";
+    position: absolute;
+    margin-left: -75px;
+    margin-top: -30px;
+    background: var(--tooltip-hover);
+    padding: 10px;
+    border: 2px dotted var(--border-pink);
+    border-radius: 3px;
+    z-index: 1;
+    width: auto;
+    font-size: 9pt;
+    color: var(--font-purple);
+}
+
+.about-title {
+    line-height: 20px;
+    /* color: var(--font-pink) */
+}
+
+.about-title-text {
+    color: var(--font-purple)
+}

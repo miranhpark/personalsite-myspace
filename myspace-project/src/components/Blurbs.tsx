@@ -11,7 +11,7 @@ import spinningHearts from '/assets/icons/hearts/animated/spinning-hearts.gif';
 const Blurbs: React.FC = () => {
     return (
         <div className="blurbs">
-            <h3>Tom's Blurbs</h3>
+            <h3>panda's blurbs</h3>
             <img className="blurbs-image" src={shinePink} alt="" />
             <img className="blurbs-image" src={wingedHeartAnimated} alt="" />
             <img className="blurbs-image" src={pastelHearts} alt="" />

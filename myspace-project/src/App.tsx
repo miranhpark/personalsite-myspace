@@ -14,7 +14,7 @@ function myspaceUrl() {
   return (
     <div className="myspace-url">
       <h4>MySpace URL:</h4>
-      http://www.myspace.com/tom
+      <a href="#">https://www.miranpark.com</a>
     </div>
   )
 }
@@ -22,7 +22,7 @@ function myspaceUrl() {
 function networkStatus() {
   return (
     <div className="network-status">
-      <h2>Tom is in your extended network</h2>
+      <h2>miran is in your extended network</h2>
     </div>
   )
 }
