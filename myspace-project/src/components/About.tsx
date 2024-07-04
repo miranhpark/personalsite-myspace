@@ -7,10 +7,10 @@ const About: React.FC = () => {
         <div className="about">
             <div className="left-column">
                 <h1>Tom</h1>
-                <div className="profile-image">
+                <div className="about-profile-image">
                     <img src={profilePic} alt="Tom's profile picture" />
                 </div>
-                <div className="view-links">
+                <div className="about-view-links">
                     View My: <a href="#">Pics</a> | <a href="#">Videos</a>
                 </div>
             </div>

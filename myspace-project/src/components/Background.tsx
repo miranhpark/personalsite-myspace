@@ -3,6 +3,7 @@ import './Background.css';
 
 interface BackgroundProps {
     children: ReactNode;
+    className?: string;
 }
 
 const images = [
@@ -27,7 +28,7 @@ const images = [
     "rainbow-bears.bmp",
 ];
 
-const Background = ({ children }: BackgroundProps) => {
+const Background = ({ children, className }: BackgroundProps) => {
     const [backgroundImage, setBackgroundImage] = useState('');
 
     useEffect(() => {
@@ -36,12 +37,19 @@ const Background = ({ children }: BackgroundProps) => {
         setBackgroundImage(imagePath);
     }, []);
 
+    let backgroundClassName
+    if (className) {
+        backgroundClassName = className
+    } else {
+        backgroundClassName = "background"
+    }
+
     return (
         <div
-            className="background"
+            className={backgroundClassName}
             style={{
-                width: '100vw',
-                height: '100vh',
+                // width: '100vw',
+                // height: '100vh',
                 backgroundImage: `url(${backgroundImage})`,
                 backgroundRepeat: 'repeat',
             }}

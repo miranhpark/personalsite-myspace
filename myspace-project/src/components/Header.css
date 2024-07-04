@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(0, 51, 153);
+    background-color: var(--header-purple);
 }
 
 .header-row {
@@ -55,7 +55,7 @@
 }
 
 .header-nav {
-    background-color: #6699CC;
+    background-color: var(--background-dark-pink);
     padding: 7px 5px;
     overflow-x: auto;
     white-space: nowrap;

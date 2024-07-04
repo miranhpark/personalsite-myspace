@@ -1,5 +1,16 @@
 .blurbs {
     margin-top: 30px;
+    padding: 5px;
+    padding-bottom: 10px;
+    background-color: var(--background-light-pink);
+    text-align: center;
+}
+
+
+.blurbs h3 {
+    padding: 5px;
+    border: 2px dotted var(--border-pink);
+    background-color: var(--background-pink)
 }
 
 .blurbs h4 {
@@ -7,6 +18,12 @@
     margin-bottom: 10px;
 }
 
-.blurbs-header {
-    background-color: #FFCC99;
+.blurbs-image-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.blurbs-image {
+    margin: 5px;
 }

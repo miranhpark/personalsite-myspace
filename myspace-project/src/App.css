@@ -7,9 +7,14 @@
 
 :root {
   --border-pink: #fcc7e5;
-  --background-pink: #fff1f9;
+  --background-pink: #ffeaf6;
+  --background-light-pink: #fff6fb;
+  --background-dark-pink: #ff97d5;
+  --header-pink: #ff90b5;
+  --header-purple: rgb(137, 112, 237);
+  --font-pink: #ff7dba;
   /* --font-purple: #E0CDFB; */
-  --font-purple: #8f4eff;
+  --font-purple: #a24ef7;
 }
 
 * {
@@ -56,7 +61,7 @@ body {
 
 .myspace-url {
   font-size: 9pt;
-  border: 1px dotted var(--border-pink);
+  border: 2px dotted var(--border-pink);
   background-color: var(--background-pink);
   margin-top: 10px;
   padding: 0px 0px 13px 3px;
@@ -67,11 +72,11 @@ body {
   padding: 30px;
   margin-bottom: 10px;
   font-size: 12pt;
-  color: #000000;
+  color: var(--font-purple);
   font-weight: bold;
   text-align: center;
   line-height: 20px;
-  border: 1px dotted var(--border-pink);
+  border: 2px dotted var(--border-pink);
   background-color: var(--background-pink);
 }
 
