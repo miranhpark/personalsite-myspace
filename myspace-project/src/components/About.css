@@ -1,9 +1,18 @@
 .about {
     display: flex;
+    padding: 5px;
+    padding-bottom: 10px;
+    border: 2px dotted var(--border-pink);
+    background-color: var(--background-pink);
 }
 
 .about h1 {
     font-size: 2em;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px dotted var(--border-pink);
+    background-color: var(--background-light-pink);
+    text-align: center;
 }
 
 .about-status {
@@ -14,7 +23,7 @@
 
 .about-info {
     margin-top: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     font-size: 1em;
 }
 

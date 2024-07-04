@@ -11,13 +11,12 @@ const profileImages = [
 const statuses = [
     'drive me to hell in a droptop',
     'brainrot',
-    'with u'
 ]
 
 function aboutTitle(title: string, titleText: string) {
     return (
         <div className='about-title'>
-            <img src={shinePink} alt="" />{title}:<img src={shinePink} alt="" />
+            <img src={shinePink} alt="" /> {title}: <img src={shinePink} alt="" />
             <div className='about-title-text'>{titleText}</div>
         </div>
     )

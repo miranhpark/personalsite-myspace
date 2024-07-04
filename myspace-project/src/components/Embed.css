@@ -1,0 +1,15 @@
+.embed {
+    margin-top: 30px;
+    padding: 5px;
+    padding-bottom: 10px;
+    background-color: var(--background-light-pink);
+    text-align: center;
+}
+
+
+.embed h3 {
+    font-size: 15pt;
+    padding: 5px;
+    border: 2px dotted var(--border-pink);
+    background-color: var(--background-pink)
+}

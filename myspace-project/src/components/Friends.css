@@ -1,10 +1,17 @@
 .friends {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
+    padding: 5px;
+    padding-bottom: 10px;
+    background-color: var(--background-light-pink);
 }
 
 .friends h2 {
-    font-size: 2em;
+    margin-top: 0px;
+    padding: 5px;
+    border: 2px dotted var(--border-pink);
+    background-color: var(--background-pink)
 }
 
 .friend-row {

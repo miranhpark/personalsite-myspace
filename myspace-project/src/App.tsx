@@ -5,6 +5,7 @@ import About from './components/About';
 import Background from './components/Background';
 import Blurbs from './components/Blurbs';
 import Contact from './components/Contact';
+import Embed from './components/Embed.tsx';
 import Friends from './components/Friends';
 import Header from './components/Header';
 import Snowfall from './components/Snowfall.tsx';
@@ -42,6 +43,7 @@ const App: React.FC = () => {
           </div>
           <div className="right-column">
             {networkStatus()}
+            <Embed />
             <Blurbs />
             <Friends />
           </div>

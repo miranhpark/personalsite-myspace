@@ -25,7 +25,7 @@
   --font-pink: #f54c9b;
   /* --font-purple: #E0CDFB; */
   --font-purple: #834feb;
-  --tooltip-hover: rgba(252, 199, 229, 0.8);
+  --tooltip-hover: rgba(255, 227, 243, 0.7);
 }
 
 * {
@@ -101,6 +101,7 @@ body {
   z-index: 1;
   width: auto;
   font-size: 9pt;
+  color: var(--font-purple);
 }
 
 .myspace-url h4 {
