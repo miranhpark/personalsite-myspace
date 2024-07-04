@@ -5,6 +5,16 @@
   src: url('/rainyhearts.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Apple ][';
+  src: url('/Apple ][.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'handy00';
+  src: url('/handy00.ttf') format('truetype');
+}
+
 :root {
   --border-pink: #fcc7e5;
   --background-pink: #ffeaf6;
@@ -14,7 +24,7 @@
   --header-purple: rgb(137, 112, 237);
   --font-pink: #ff7dba;
   /* --font-purple: #E0CDFB; */
-  --font-purple: #a24ef7;
+  --font-purple: #834feb;
 }
 
 * {
@@ -29,9 +39,13 @@ div,
 textarea,
 button {
   font-family: "Pixelify Sans", verdana, arial, sans-serif, helvetica;
-  font-size: 12pt;
+  font-size: 10pt;
   color: var(--font-purple);
   font-weight: normal;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;
 }
 
 body {
@@ -68,10 +82,14 @@ body {
   line-height: 0px;
 }
 
+.myspace-url h4 {
+  font-size: 11pt;
+}
+
 .network-status {
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 10px;
-  font-size: 12pt;
+  font-size: 10pt;
   color: var(--font-purple);
   font-weight: bold;
   text-align: center;

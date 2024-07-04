@@ -22,7 +22,7 @@ function myspaceUrl() {
 function networkStatus() {
   return (
     <div className="network-status">
-      Tom is in your extended network
+      <h2>Tom is in your extended network</h2>
     </div>
   )
 }

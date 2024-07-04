@@ -8,12 +8,14 @@
 
 
 .blurbs h3 {
+    font-size: 13pt;
     padding: 5px;
     border: 2px dotted var(--border-pink);
     background-color: var(--background-pink)
 }
 
 .blurbs h4 {
+    font-size: 13pt;
     margin-top: 0px;
     margin-bottom: 10px;
 }

@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.friends h2 {
+    font-size: 2em;
+}
+
 .friend-row {
     display: flex;
     flex-wrap: wrap;

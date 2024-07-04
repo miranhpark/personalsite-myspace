@@ -2,21 +2,25 @@
     display: flex;
 }
 
+.about h1 {
+    font-size: 2em;
+}
+
 .about-status {
     margin-top: 20px;
     font-weight: 700;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .about-info {
     margin-top: 20px;
-    margin-bottom: 40px;
-    font-size: 0.9em;
+    margin-bottom: 35px;
+    font-size: 1em;
 }
 
 .about-login {
     margin-bottom: auto;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .about-profile-image img {
@@ -28,7 +32,7 @@
 .about-view-links {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .about-view-links a {
