@@ -3,7 +3,7 @@ import './Blog.css';
 
 const Blog: React.FC = () => {
     return (
-        <div className="blog">
+        <div className="blog-entries">
             <h3>Tom's Latest Blog Entry <a href="#">[Subscribe to this Blog]</a></h3>
             <p>Top 8, 16, 20, 24 friends :) <a href="#">(view more)</a></p>
             <p>MySpace Concert & Parties -Georgia, Orlando, Miami! <a href="#">(view more)</a></p>

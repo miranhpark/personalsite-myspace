@@ -30,7 +30,7 @@ const images = [
     // "pentel-shopkeeper.png",
     // "pentel-tokyo.png"
     "animated/purple-galaxy.gif",
-    "animated/pixel-arcade.gif",
+    // "animated/pixel-arcade.gif",
     "purple-sky.gif",
     "animated/pink-space.gif",
     "animated/sunset-space.webp",

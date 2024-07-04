@@ -4,13 +4,22 @@ import './About.css';
 import shinePink from '/assets/icons/stars/animated/shine-purple.gif';
 
 const profileImages = [
-    '200.webp',
-    'tired-software-engineer.gif'
+    'sailor-moon-writing.webp',
+    'sailor-moon-computer.png',
+    'pixel-hatsune-miku.gif',
+    'tired-mai-sakurajima.gif',
+    'miku-rabbit-hole-1.gif',
+    'miku-rabbit-hole-2.gif',
+    'marin-kitagawa-hehe.gif',
 ]
 
 const statuses = [
-    'drive me to hell in a droptop',
-    'brainrot',
+    'welcome to my brainrot',
+    'professional unprofessional',
+    '🍞 idiot sandwich 🍞',
+    'i <3 wolves',
+    'anime profile pic btw',
+    'pout queen'
 ]
 
 function aboutTitle(title: string, titleText: string) {
@@ -38,7 +47,7 @@ const About: React.FC = () => {
     return (
         <div className="about">
             <div className="left-column">
-                <h1>panda</h1>
+                <h1>✨ panda ✨</h1>
                 <div className="about-profile-image">
                     <img src={profilePic} alt="profile picture" />
                 </div>

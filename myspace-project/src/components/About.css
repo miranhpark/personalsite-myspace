@@ -6,6 +6,10 @@
     background-color: var(--background-pink);
 }
 
+.about .right-column {
+    width: 60%;
+}
+
 .about h1 {
     font-size: 2em;
     margin-top: 10px;
@@ -33,7 +37,7 @@
 }
 
 .about-profile-image img {
-    max-width: 200px;
+    max-width: 300px;
     width: 100%;
     height: auto;
 }
