@@ -13,11 +13,11 @@ const Blurbs: React.FC = () => {
         <div className="blurbs">
             <h3>Tom's Blurbs</h3>
             <img className="blurbs-image" src={shinePink} alt="" />
-            <img src={wingedHeartAnimated} alt="" />
-            <img src={pastelHearts} className="blurbs-image" alt="" />
-            <img src={wingedHeart} alt="cute winged pixel hearts" />
-            <img src={pastelHearts} className="blurbs-image" alt="" />
-            <img src={wingedHeartAnimated} alt="" />
+            <img className="blurbs-image" src={wingedHeartAnimated} alt="" />
+            <img className="blurbs-image" src={pastelHearts} alt="" />
+            <img className="blurbs-image" src={wingedHeart} alt="cute winged pixel hearts and sparkles" />
+            <img className="blurbs-image" src={pastelHearts} alt="" />
+            <img className="blurbs-image" src={wingedHeartAnimated} alt="" />
             <img className="blurbs-image" src={shinePink} alt="" />
             <h4>About me:</h4>
             <p>I'm here to help you with MySpace. Send me a message if you're confused by anything. Before asking me a question, please check the FAQ to see if your question has already been answered.</p>

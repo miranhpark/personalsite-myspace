@@ -48,8 +48,8 @@ const Background = ({ children, className }: BackgroundProps) => {
         <div
             className={backgroundClassName}
             style={{
-                // width: '100vw',
-                // height: '100vh',
+                width: '100%',
+                height: '100%',
                 backgroundImage: `url(${backgroundImage})`,
                 backgroundRepeat: 'repeat',
             }}
