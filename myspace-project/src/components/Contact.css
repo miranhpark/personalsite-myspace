@@ -30,10 +30,21 @@
     font-size: 0.8em;
     text-align: left;
     transition: background-color 0.3s;
+    position: relative;
 }
 
-.contact-box button:hover {
-    background-color: #ffdff1;
+.contact-box button:hover:after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    margin-left: 3px;
+    background: rgba(252, 199, 229, 0.5);
+    padding: 10px;
+    border: 2px dotted var(--border-pink);
+    border-radius: 3px;
+    z-index: 1;
+    width: 100%;
 }
 
 .contact-box button img {

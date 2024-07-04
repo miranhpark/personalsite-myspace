@@ -1,12 +1,12 @@
 import React from 'react';
 import './Blurbs.css';
 
-import shinePink from '/icons/stars/animated/shine-pink.gif';
-import wingedHeart from '/icons/hearts/winged-heart.png';
-import wingedHeartAnimated from '/icons/hearts/animated/winged-heart.gif';
-import pastelHearts from '/icons/hearts/animated/pastel-hearts.gif';
-import bowHeart from '/icons/hearts/animated/bow-heart.gif';
-import spinningHearts from '/icons/hearts/animated/spinning-hearts.gif';
+import shinePink from '/assets/icons/stars/animated/shine-pink.gif';
+import wingedHeart from '/assets/icons/hearts/winged-heart.png';
+import wingedHeartAnimated from '/assets/icons/hearts/animated/winged-heart.gif';
+import pastelHearts from '/assets/icons/hearts/animated/pastel-hearts.gif';
+import bowHeart from '/assets/icons/hearts/animated/bow-heart.gif';
+import spinningHearts from '/assets/icons/hearts/animated/spinning-hearts.gif';
 
 const Blurbs: React.FC = () => {
     return (

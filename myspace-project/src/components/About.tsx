@@ -1,8 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './About.css';
-import profilePic from '/assets/profile.png';
+
+const images = [
+    '200.webp',
+    'tired-software-engineer.gif'
+]
+
+const statuses = [
+    'drive me to hell in a droptop',
+    'brainrot',
+    'with u'
+]
 
 const About: React.FC = () => {
+    const [profilePic, setProfilePic] = useState('');
+    const [status, setStatus] = useState('')
+
+    useEffect(() => {
+        const randomImage = images[Math.floor(Math.random() * images.length)];
+        const imagePath = `/assets/images/${randomImage}`;
+        setProfilePic(imagePath);
+
+        const randomStatus = statuses[Math.floor(Math.random() * statuses.length)];
+        setStatus(randomStatus)
+    }, []);
+
     return (
         <div className="about">
             <div className="left-column">
@@ -16,18 +38,17 @@ const About: React.FC = () => {
             </div>
             <div className="right-column">
                 <div className="about-status">
-                    "*o)*"<br></br>
+                    "{status}"<br></br>
                 </div>
                 <div className="about-info">
-                    Male<br></br>
-                    30 years old<br></br>
-                    Santa Monica,<br></br>
-                    California<br></br>
-                    United States<br></br>
+                    nonbinary<br></br>
+                    old af<br></br>
+                    location:<br></br>
+                    existential purgatory<br></br>
                 </div>
                 <div className="about-login">
                     Last Login:<br></br>
-                    8/27/2006<br></br>
+                    01/01/2000<br></br>
                 </div>
             </div>
 

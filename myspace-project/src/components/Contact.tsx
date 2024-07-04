@@ -1,30 +1,30 @@
 import React from 'react';
 import './Contact.css';
 
-import sendMessageIcon from '/icons/bows/medium-blue.gif';
-import forwardIcon from '/icons/bows/medium-pink.gif';
-import addFriendIcon from '/icons/stars/animated/shine-blue.gif';
-import favoriteIcon from '/icons/stars/animated/shine-pink.gif';
-import instantMessageIcon from '/icons/bows/medium-mint.png';
-import blockUserIcon from '/icons/bows/medium-violet.png';
-import addToGroupIcon from '/icons/stars/animated/shine-green.gif';
-import rankUserIcon from '/icons/stars/animated/shine-purple.gif';
+function contactButton(imageName: string, buttonText: string, altText: string) {
+    const imageSrc = `/assets/icons/${imageName}`;
+    return (
+        <button data-tooltip="the internet is dead">
+            <img src={imageSrc} alt={altText} /> {buttonText}
+        </button>
+    )
+}
 
 const Contact: React.FC = () => {
     return (
         <div className="contact-box">
             <h3>Contacting Tom</h3>
             <div className="contact-buttons">
-                <button><img src={sendMessageIcon} alt="send message icon" /> Send Message</button>
-                <button><img src={forwardIcon} alt="forward icon" /> Forward to Friend</button>
-                <button><img src={addFriendIcon} alt="add friend icon" /> Add to Friends</button>
-                <button><img src={favoriteIcon} alt="favorite icon" /> Add to Favorites</button>
-                <button><img src={instantMessageIcon} alt="instant message icon" /> Instant Message</button>
-                <button><img src={blockUserIcon} alt="block user icon" /> Block User</button>
-                <button><img src={addToGroupIcon} alt="add to group icon" /> Add to Group</button>
-                <button><img src={rankUserIcon} alt="rank user icon" /> Rank User</button>
+                {contactButton("bows/medium-blue.gif", "Send Message", "send message button")}
+                {contactButton("bows/medium-pink.gif", "Forward to Friend", "forward to friend button")}
+                {contactButton("bows/animated/shine-blue.gif", "Add to Friends", "add friend button")}
+                {contactButton("bows/animated/shine-pink.gif", "Add to Favorites", "favorites button")}
+                {contactButton("bows/medium-mint.png", "Instant Message", "instant message button")}
+                {contactButton("bows/medium-violet.png", "Block User", "block user button")}
+                {contactButton("bows/animated/shine-green.gif", "Add to Group", "add to group button")}
+                {contactButton("bows/animated/shine-purple.gif", "Rank User", "rank user button")}
             </div>
-        </div>
+        </div >
     );
 };
 

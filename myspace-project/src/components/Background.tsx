@@ -26,14 +26,23 @@ const images = [
     // "purple-sootsprites.png",
     // "purple-wallpaper.png",
     "rainbow-bears.bmp",
-];
+    "pentel-fuji.png",
+    // "pentel-shopkeeper.png",
+    // "pentel-tokyo.png"
+    "animated/purple-galaxy.gif",
+    "animated/pixel-arcade.gif",
+    "purple-sky.gif",
+    "animated/pink-space.gif",
+    "animated/sunset-space.webp",
+    "animated/purple-sky.webp"
+]
 
 const Background = ({ children, className }: BackgroundProps) => {
     const [backgroundImage, setBackgroundImage] = useState('');
 
     useEffect(() => {
         const randomImage = images[Math.floor(Math.random() * images.length)];
-        const imagePath = `/public/backgrounds/${randomImage}`;
+        const imagePath = `/assets/backgrounds/${randomImage}`;
         setBackgroundImage(imagePath);
     }, []);
 

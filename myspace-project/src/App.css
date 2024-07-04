@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: 'Rainy Hearts';
-  src: url('/rainyhearts.ttf') format('truetype');
+  src: url('/assets/rainyhearts.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Apple ][';
-  src: url('/Apple ][.ttf') format('truetype');
+  src: url('/assets/Apple ][.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'handy00';
-  src: url('/handy00.ttf') format('truetype');
+  src: url('/assets/handy00.ttf') format('truetype');
 }
 
 :root {
@@ -71,6 +71,7 @@ body {
 .myspace-page {
   width: 90%;
   margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .myspace-url {
