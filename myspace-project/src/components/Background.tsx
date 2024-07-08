@@ -33,8 +33,9 @@ const images = [
     // "animated/pixel-arcade.gif",
     "purple-sky.gif",
     "animated/pink-space.gif",
-    "animated/sunset-space.webp",
-    "animated/purple-sky.webp"
+    // "animated/sunset-space.webp",
+    "animated/purple-sky.webp",
+    "animated/pink-pixel-stationery.gif",
 ]
 
 const Background = ({ children, className }: BackgroundProps) => {

@@ -11,15 +11,17 @@ const profileImages = [
     'miku-rabbit-hole-1.gif',
     'miku-rabbit-hole-2.gif',
     'marin-kitagawa-hehe.gif',
+    // 'the-tale-of-genji.gif',
+    'shimoneta-hyouka-fuwa.gif',
+    'maobabie-job.jpg',
 ]
 
 const statuses = [
     'welcome to my brainrot',
     'professional unprofessional',
     '🍞 idiot sandwich 🍞',
-    'i <3 wolves',
+    'i 🫶 wolves',
     'anime profile pic btw',
-    'pout queen'
 ]
 
 function aboutTitle(title: string, titleText: string) {
@@ -37,7 +39,7 @@ const About: React.FC = () => {
 
     useEffect(() => {
         const randomImage = profileImages[Math.floor(Math.random() * profileImages.length)];
-        const imagePath = `/assets/images/${randomImage}`;
+        const imagePath = `/assets/profile/${randomImage}`;
         setProfilePic(imagePath);
 
         const randomStatus = statuses[Math.floor(Math.random() * statuses.length)];
@@ -47,7 +49,7 @@ const About: React.FC = () => {
     return (
         <div className="about">
             <div className="left-column">
-                <h1>✨ panda ✨</h1>
+                <h1>° ✨ panda ✨ °</h1>
                 <div className="about-profile-image">
                     <img src={profilePic} alt="profile picture" />
                 </div>

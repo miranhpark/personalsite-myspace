@@ -13,7 +13,7 @@ function contactButton(imageName: string, buttonText: string, altText: string) {
 const Contact: React.FC = () => {
     return (
         <div className="contact-box">
-            <h3>Contacting Tom</h3>
+            <h3>° contacting panda °</h3>
             <div className="contact-buttons">
                 {contactButton("bows/medium-blue.gif", "Send Message", "send message button")}
                 {contactButton("bows/medium-pink.gif", "Forward to Friend", "forward to friend button")}

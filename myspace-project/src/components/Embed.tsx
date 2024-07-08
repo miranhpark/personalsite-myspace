@@ -4,7 +4,7 @@ import './Embed.css';
 const Embed: React.FC = () => {
     return (
         <div className="embed">
-            <h3>Music</h3>
+            <h3>° music °</h3>
             <p>TODO</p>
         </div>
     );

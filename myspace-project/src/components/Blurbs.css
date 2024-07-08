@@ -16,8 +16,7 @@
 
 .blurbs h4 {
     font-size: 14pt;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 .blurbs-image-row {
@@ -32,12 +31,14 @@
 
 .blurbs-image-embed {
     width: 50%;
+    margin: 10px;
 }
 
 .blurbs-text {
     margin: 10px;
     justify-content: center;
     list-style-position: inside;
+    line-height: 1.2em;
 }
 
 .blurbs-text ol {

@@ -23,7 +23,7 @@ function myspaceUrl() {
 function networkStatus() {
   return (
     <div className="network-status">
-      <h2>miran is in your extended network</h2>
+      <h2>° miran is in your extended network °</h2>
     </div>
   )
 }
