@@ -36,6 +36,8 @@ const images = [
     // "animated/sunset-space.webp",
     "animated/purple-sky.webp",
     "animated/pink-pixel-stationery.gif",
+    "purple-totoro.png",
+    "pink-sailor-moon.png",
 ]
 
 const Background = ({ children, className }: BackgroundProps) => {

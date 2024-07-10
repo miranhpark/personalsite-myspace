@@ -18,10 +18,12 @@ const profileImages = [
 
 const statuses = [
     'welcome to my brainrot',
-    'professional unprofessional',
     '🍞 idiot sandwich 🍞',
     'i 🫶 wolves',
     'anime profile pic btw',
+    'love bla bla bla',
+    'y2k baby',
+    'i\'m an angel with a shotgun',
 ]
 
 function aboutTitle(title: string, titleText: string) {

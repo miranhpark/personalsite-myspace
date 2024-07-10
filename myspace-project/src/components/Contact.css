@@ -33,6 +33,10 @@
     position: relative;
 }
 
+.contact-box button:hover {
+    cursor: url('/assets/cursors/cursor-heart-convo.png'), auto;
+}
+
 .contact-box button:hover:after {
     content: "the internet is dead 💖";
     position: absolute;

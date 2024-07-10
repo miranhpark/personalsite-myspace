@@ -58,6 +58,10 @@
     font-size: 8pt;
 }
 
+.header-search button:hover {
+    cursor: url('/assets/cursors/cursor-heart-convo.png'), auto;
+}
+
 .header-user-actions {
     color: white;
     padding-right: 10px;

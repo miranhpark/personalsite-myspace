@@ -21,11 +21,30 @@
   --background-light-pink: #fff6fb;
   --background-dark-pink: #ff8bb6;
   --header-pink: #ff90b5;
-  --header-purple: rgb(137, 112, 237);
+  --header-purple: rgb(184, 169, 242);
   --font-pink: #f54c9b;
   /* --font-purple: #E0CDFB; */
   --font-purple: #834feb;
   --tooltip-hover: rgba(255, 227, 243, 0.7);
+}
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 17px;
+  background: #FFF7F9;
+  background-image: url(/assets/backgrounds/purple-moon.gif);
+  border: 1px solid var(--border-pink);
+}
+
+::-webkit-scrollbar-thumb {
+  border: 1px solid var(--header-pink);
+  background-color: var(--header-purple);
+  -webkit-border-radius: 0ex;
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.75)
+}
+
+::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0)
 }
 
 * {
@@ -52,6 +71,13 @@ button {
 body {
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  cursor: url('/assets/cursors/cursor-winged-heart.png'), auto;
+}
+
+
+a:hover {
+  cursor: url('/assets/cursors/cursor-heart-convo.png'), auto;
 }
 
 .profile-layout {
@@ -90,7 +116,7 @@ body {
 }
 
 .myspace-url a:hover:after {
-  content: "the internet is dead 💖";
+  content: "you're here already 💖";
   position: absolute;
   margin-left: -75px;
   margin-top: -30px;
