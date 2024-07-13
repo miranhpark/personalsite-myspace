@@ -98,7 +98,7 @@ a:hover {
 }
 
 .myspace-url a:hover:after {
-  content: "you're here already 💖";
+  content: "you're already here 💖";
   position: absolute;
   margin-left: -75px;
   margin-top: -30px;

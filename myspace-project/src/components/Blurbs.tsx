@@ -57,18 +57,18 @@ const Blurbs: React.FC = () => {
             <h4>° top fragrances: °</h4>
             <div className="blurbs-text">
                 <ol>
-                    <li><a href="#">serge lutens - chene</a></li>
-                    <li><a href="#">by kilian - back to black</a></li>
-                    <li><a href="#">l'artisan parfumeur - dzing!</a></li>
-                    <li><a href="#">cb i hate perfume - black march</a></li>
-                    <li><a href="#">l'artisan parfumeur - mechant loup</a></li>
-                    <li><a href="#">cb i hate perfume - burning leaves</a></li>
-                    <li><a href="#">apoteker tepe - the holy mountain</a></li>
-                    <li><a href="#">heretic - dirty hinoki</a></li>
-                    <li><a href="#">bvlgari - black</a></li>
-                    <li><a href="#">etat libre d'orange - you or someone like you</a></li>
-                    <li><a href="#">serge lutens - de profundis</a></li>
-                    <li><a href="#">serge lutens - muscs koublaï khan</a></li>
+                    <li><a href="https://sergelutens.com/products/chene">serge lutens - chene</a></li>
+                    <li><a href="https://www.bykilian.com/product/19797/50774/perfume/back-to-black-aphrodisiac/the-smokes#/sku/115016">by kilian - back to black</a></li>
+                    <li><a href="https://basenotes.com/fragrances/dzing-by-lartisan-parfumeur.26122466">l'artisan parfumeur - dzing!</a></li>
+                    <li><a href="https://www.cbihateperfume.com/402">cb i hate perfume - black march</a></li>
+                    <li><a href="https://www.artisanparfumeur.com/fragrance/all-fragrances/mechant-loup-eau-de-toilette-1559422.html">l'artisan parfumeur - mechant loup</a></li>
+                    <li><a href="https://www.cbihateperfume.com/305">cb i hate perfume - burning leaves</a></li>
+                    <li><a href="https://www.apotekertepe.net/product/the-holy-mountain">apoteker tepe - the holy mountain</a></li>
+                    <li><a href="https://hereticparfum.com/products/dirty-hinoki">heretic - dirty hinoki</a></li>
+                    <li><a href="https://basenotes.com/fragrances/black-by-bulgari.26120268">bvlgari - black</a></li>
+                    <li><a href="https://www.etatlibredorange.com/products/you-or-someone-like-you">etat libre d'orange - you or someone like you</a></li>
+                    <li><a href="https://sergelutens.com/products/de-profundis-eau-de-parfum-spray">serge lutens - de profundis</a></li>
+                    <li><a href="https://sergelutens.com/products/musc-koublai-khan">serge lutens - muscs koublaï khan</a></li>
                 </ol>
             </div>
             <img className="blurbs-image-embed" src={ranni} alt="elden ring ranni animation" />

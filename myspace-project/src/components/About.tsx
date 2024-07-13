@@ -25,7 +25,7 @@ const statuses = [
     'anime profile pic btw 💅',
     '🐰 love bla bla bla',
     'y2k baby 💿',
-    'i\'m an angel with a shotgun (nightcore)',
+    'i\'m an angel with a shotgun (nightcore mix)',
 ]
 
 function aboutTitle(title: string, titleText: string) {
