@@ -6,7 +6,7 @@ interface BackgroundProps {
     className?: string;
 }
 
-const images = [
+const backgroundImages = [
     // "animated/darkblue-stars.gif",
     // "animated/darkblue-stars2.gif",
     // "animated/greyblue-stars.gif",
@@ -44,9 +44,16 @@ const Background = ({ children, className }: BackgroundProps) => {
     const [backgroundImage, setBackgroundImage] = useState('');
 
     useEffect(() => {
-        const randomImage = images[Math.floor(Math.random() * images.length)];
-        const imagePath = `/assets/backgrounds/${randomImage}`;
-        setBackgroundImage(imagePath);
+        const randomizeBackground = () => {
+            const randomBackgroundIndex = Math.floor(Math.random() * backgroundImages.length);
+            setBackgroundImage(`/assets/backgrounds/${backgroundImages[randomBackgroundIndex]}`);
+        }
+
+        randomizeBackground();
+
+        const intervalId = setInterval(randomizeBackground, 10000)
+
+        return () => clearInterval(intervalId);
     }, []);
 
     let backgroundClassName

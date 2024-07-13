@@ -8,14 +8,14 @@
 
 
 .blurbs h3 {
-    font-size: 15pt;
+    font-size: 16pt;
     padding: 5px;
     border: 2px dotted var(--border-pink);
     background-color: var(--background-pink)
 }
 
 .blurbs h4 {
-    font-size: 14pt;
+    font-size: 16pt;
     margin: 10px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .blurbs-link {
-    font-size: 14pt;
+    font-size: 15pt;
     margin-bottom: 15px;
     color: var(--font-purple);
     font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;
@@ -64,7 +64,6 @@
 
 .blurbs-link a {
     line-height: 2em;
-    font-size: 14pt;
     color: rgb(0, 187, 255);
     margin: 5px;
     font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;
@@ -73,5 +72,5 @@
 .blurbs-link img {
     margin: 2px;
     margin-bottom: -3px;
-    width: 15px;
+    width: 20px;
 }

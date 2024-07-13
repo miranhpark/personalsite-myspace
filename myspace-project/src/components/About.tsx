@@ -22,8 +22,8 @@ const statuses = [
     'welcome to my brainrot 😘',
     '🍞 idiot sandwich 🍞',
     'i 🫶 wolves',
-    'anime profile pic btw',
-    'love bla bla bla',
+    'anime profile pic btw 💅',
+    '🐰 love bla bla bla',
     'y2k baby 💿',
     'i\'m an angel with a shotgun (nightcore)',
 ]
@@ -38,16 +38,22 @@ function aboutTitle(title: string, titleText: string) {
 }
 
 const About: React.FC = () => {
-    const [profilePic, setProfilePic] = useState('');
+    const [profileImage, setProfileImage] = useState('');
     const [status, setStatus] = useState('')
 
     useEffect(() => {
-        const randomImage = profileImages[Math.floor(Math.random() * profileImages.length)];
-        const imagePath = `/assets/profile/${randomImage}`;
-        setProfilePic(imagePath);
+        const randomizeProfile = () => {
+            const randomProfileImageIndex = Math.floor(Math.random() * profileImages.length);
+            const randomStatusIndex = Math.floor(Math.random() * statuses.length);
+            setProfileImage(`/assets/profile/${profileImages[randomProfileImageIndex]}`);
+            setStatus(statuses[randomStatusIndex]);
+        }
 
-        const randomStatus = statuses[Math.floor(Math.random() * statuses.length)];
-        setStatus(randomStatus)
+        randomizeProfile();
+
+        const intervalId = setInterval(randomizeProfile, 10000)
+
+        return () => clearInterval(intervalId);
     }, []);
 
     return (
@@ -55,7 +61,7 @@ const About: React.FC = () => {
             <div className="left-column">
                 <h1>° ✨ panda ✨ °</h1>
                 <div className="about-profile-image">
-                    <img src={profilePic} alt="profile picture" />
+                    <img src={profileImage} alt="profile picture" />
                 </div>
                 <div className="about-view-links">
                     View My: <a href="#">Pics</a> | <a href="#">Videos</a>

@@ -8,7 +8,7 @@
 .contact-box h3 {
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 1.3em;
+    font-size: 1.5em;
     border-bottom: 1px solid var(--border-pink);
     padding-bottom: 5px;
 }
@@ -27,7 +27,7 @@
     background-color: var(--background-light-pink);
     border: 1px dotted var(--border-pink);
     cursor: pointer;
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: left;
     transition: background-color 0.3s;
     position: relative;

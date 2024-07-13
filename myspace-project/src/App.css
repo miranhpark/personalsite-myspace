@@ -17,34 +17,16 @@
 
 :root {
   --border-pink: #fcc7e5;
-  --background-pink: #ffeaf6;
-  --background-light-pink: #fff6fb;
+  --border-purple: rgb(175, 148, 255);
+  --background-pink: rgba(255, 234, 246, 0.85);
+  --background-light-pink: rgba(255, 246, 251, 0.75);
   --background-dark-pink: #ff8bb6;
   --header-pink: #ff90b5;
-  --header-purple: rgb(184, 169, 242);
+  --header-purple: rgb(187, 164, 255, 0.8);
   --font-pink: #f54c9b;
   /* --font-purple: #E0CDFB; */
   --font-purple: #834feb;
   --tooltip-hover: rgba(255, 227, 243, 0.7);
-}
-
-::-webkit-scrollbar {
-  height: 12px;
-  width: 17px;
-  background: #FFF7F9;
-  background-image: url(/assets/backgrounds/purple-moon.gif);
-  border: 1px solid var(--border-pink);
-}
-
-::-webkit-scrollbar-thumb {
-  border: 1px solid var(--header-pink);
-  background-color: var(--header-purple);
-  -webkit-border-radius: 0ex;
-  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.75)
-}
-
-::-webkit-scrollbar-corner {
-  background: rgba(0, 0, 0, 0)
 }
 
 * {
@@ -131,13 +113,13 @@ a:hover {
 }
 
 .myspace-url h4 {
-  font-size: 11pt;
+  font-size: 12pt;
 }
 
 .network-status {
   padding: 20px;
   margin-bottom: 10px;
-  font-size: 10pt;
+  font-size: 11pt;
   color: var(--font-purple);
   font-weight: bold;
   text-align: center;
@@ -194,4 +176,24 @@ h3 {
   .right-column {
     flex-grow: 1;
   }
+
+  ::-webkit-scrollbar {
+    height: 12px;
+    width: 17px;
+    background: #FFF7F9;
+    background-image: url(/assets/backgrounds/purple-moon.gif);
+    border: 1px solid var(--border-purple);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border: 2px solid var(--border-purple);
+    background-color: var(--header-purple);
+    -webkit-border-radius: 0ex;
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.75)
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0)
+  }
+
 }
