@@ -25,6 +25,20 @@
     font-size: 1em;
 }
 
+.about-status:hover:after {
+    content: "refresh for something new 💖";
+    position: absolute;
+    font-weight: 300;
+    background: var(--tooltip-hover);
+    padding: 10px;
+    border: 2px dotted var(--border-pink);
+    border-radius: 3px;
+    z-index: 1;
+    width: auto;
+    font-size: 9pt;
+    color: var(--font-pink);
+}
+
 .about-info {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -40,6 +54,25 @@
     max-width: 300px;
     width: 100%;
     height: auto;
+}
+
+.about-profile-image img:hover {
+    cursor: url('/assets/cursors/cursor-heart-convo.png'), auto;
+}
+
+.about-profile-image:hover:after {
+    content: "refresh for something new 💖";
+    position: absolute;
+    margin-left: -75px;
+    margin-top: 50px;
+    background: var(--tooltip-hover);
+    padding: 10px;
+    border: 2px dotted var(--border-pink);
+    border-radius: 3px;
+    z-index: 1;
+    width: auto;
+    font-size: 9pt;
+    color: var(--font-purple);
 }
 
 .about-view-links {

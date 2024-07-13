@@ -10,6 +10,9 @@ import spinningHearts from '/assets/icons/hearts/animated/spinning-hearts.gif';
 import maobabieBoba from '/assets/images/maobabie-boba.webp';
 import princessMononoke from '/assets/images/princess-mononoke-humans.gif';
 import ghostInTheShell from '/assets/images/ghost-in-the-shell-2.gif';
+import ranni from '/assets/images/ranni.webp';
+import blueHeart from '/assets/icons/hearts/classic-blue.gif';
+import blueStar from '/assets/icons/stars/animated/medium-blue.gif';
 
 function decoratorImageRows(side: string) {
     if (side === "top") {
@@ -67,6 +70,14 @@ const Blurbs: React.FC = () => {
                     <li><a href="#">serge lutens - de profundis</a></li>
                     <li><a href="#">serge lutens - muscs koublaï khan</a></li>
                 </ol>
+            </div>
+            <img className="blurbs-image-embed" src={ranni} alt="elden ring ranni animation" />
+            <div className="blurbs-link">
+                <img src={blueStar} />
+                <img src={blueHeart} style={{ width: "15px", marginTop: "-10px" }} />
+                <a href="https://seenaburns.com/">my consort eternal</a>
+                <img src={blueHeart} style={{ width: "15px", marginTop: "-10px" }} />
+                <img src={blueStar} />
             </div>
             {decoratorImageRows("bottom")}
         </div >

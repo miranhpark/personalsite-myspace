@@ -11,19 +11,21 @@ const profileImages = [
     'miku-rabbit-hole-1.gif',
     'miku-rabbit-hole-2.gif',
     'marin-kitagawa-hehe.gif',
-    // 'the-tale-of-genji.gif',
+    'the-tale-of-genji.gif',
     'shimoneta-hyouka-fuwa.gif',
     'maobabie-job.jpg',
+    'berserk.png',
+    'ranni-pjs.jpg'
 ]
 
 const statuses = [
-    'welcome to my brainrot',
+    'welcome to my brainrot 😘',
     '🍞 idiot sandwich 🍞',
     'i 🫶 wolves',
     'anime profile pic btw',
     'love bla bla bla',
-    'y2k baby',
-    'i\'m an angel with a shotgun',
+    'y2k baby 💿',
+    'i\'m an angel with a shotgun (nightcore)',
 ]
 
 function aboutTitle(title: string, titleText: string) {
