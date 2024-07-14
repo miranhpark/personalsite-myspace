@@ -48,7 +48,7 @@
     border: 2px dotted var(--border-pink);
     border-radius: 3px;
     z-index: 1;
-    width: 100%;
+    width: 145px;
 }
 
 .contact-box button img {

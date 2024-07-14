@@ -67,7 +67,7 @@
     border-radius: 3px;
     z-index: 1;
     width: auto;
-    font-size: 9pt;
+    font-size: 0.8rem;
     color: var(--font-purple);
 }
 

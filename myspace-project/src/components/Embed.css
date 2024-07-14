@@ -8,8 +8,26 @@
 
 
 .embed h3 {
-    font-size: 16pt;
+    font-size: 1.4rem;
     padding: 5px;
     border: 2px dotted var(--border-pink);
     background-color: var(--background-pink)
+}
+
+.youtube-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.youtube-embed iframe {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border: 0;
+    display: flex;
 }

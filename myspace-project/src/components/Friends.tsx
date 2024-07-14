@@ -18,7 +18,7 @@ const Friends: React.FC = () => {
                 {friend("favorite bald streamer", "https://m.twitch.tv/northernlion/clip/BrainyBumblingJayWoofer-raLfd1ny4emGGexD", "/assets/friends/northernlion.png")}
                 {friend("favorite balding streamer", "https://www.twitch.tv/squeex/clip/RelatedSpotlessBubbleteaBleedPurple-Cc1rwCDRDeG2Fz1c", "/assets/friends/squeex.png")}
                 {friend("the most relaxing content on the internet", "https://www.youtube.com/watch?v=ixn3zi_H9os", "/assets/friends/jerma.jpg")}
-                {friend("living in a society ???", "https://www.youtube.com/watch?v=tpg9VcXL5KA", "/assets/friends/jc-foster.webp")}
+                {friend("how to live in a society", "https://www.youtube.com/watch?v=tpg9VcXL5KA", "/assets/friends/jc-foster.webp")}
             </div>
             <div className="friend-row">
                 {friend("glizzy hands marketing news", "https://www.youtube.com/playlist?list=PLrMS357ieiqSvFBzFAGsIE0uiopBxHI_-", "/assets/friends/atrioc.jpg")}

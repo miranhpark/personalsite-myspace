@@ -8,14 +8,14 @@
 
 
 .blurbs h3 {
-    font-size: 16pt;
+    font-size: 1.4rem;
     padding: 5px;
     border: 2px dotted var(--border-pink);
     background-color: var(--background-pink)
 }
 
 .blurbs h4 {
-    font-size: 16pt;
+    font-size: 1.4rem;
     margin: 10px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .blurbs-link {
-    font-size: 15pt;
+    font-size: 1.3rem;
     margin-bottom: 15px;
     color: var(--font-purple);
     font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;

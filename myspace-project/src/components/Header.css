@@ -33,7 +33,7 @@
     border-radius: 3px;
     z-index: 1;
     width: auto;
-    font-size: 9pt;
+    font-size: 0.8rem;
     color: var(--font-purple);
 }
 
@@ -52,10 +52,9 @@
 }
 
 .header-search button {
-    font-family: verdana, arial, sans-serif, helvetica;
     background-color: #e0FFFF;
     cursor: pointer;
-    font-size: 8pt;
+    font-size: 0.8rem;
 }
 
 .header-search button:hover {
@@ -84,7 +83,7 @@
     border-radius: 3px;
     z-index: 1;
     width: auto;
-    font-size: 9pt;
+    font-size: 0.8rem;
     color: var(--font-purple);
 }
 
@@ -115,7 +114,7 @@
     border-radius: 3px;
     z-index: 1;
     width: auto;
-    font-size: 9pt;
+    font-size: 0.8rem;
     color: var(--font-purple);
 }
 
