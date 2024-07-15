@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './About.css';
 
+import onlineStatus from '/assets/images/pixel-online.gif';
 import shinePink from '/assets/icons/stars/animated/shine-purple.gif';
 
 const profileImages = [
@@ -79,6 +80,7 @@ const About: React.FC = () => {
                     {aboutTitle("location", "existential purgatory")}
                 </div>
                 <div className="about-login">
+                    <img src={onlineStatus} alt="profile picture" /><br></br>
                     Last Login:<br></br>
                     01/01/2001<br></br>
                 </div>

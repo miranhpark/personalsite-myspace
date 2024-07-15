@@ -13,6 +13,7 @@ import shinePink from '/assets/icons/stars/animated/shine-pink.gif';
 import shinePurple from '/assets/icons/bows/animated/pink-charm.gif';
 import sleepyPrincess from '/assets/images/sleepy-princess.gif';
 import spinningHearts from '/assets/icons/hearts/animated/spinning-hearts.gif';
+import welcomePuppy from '/assets/images/welcome-puppy.gif';
 import wingedHeart from '/assets/icons/hearts/winged-heart.png';
 import wingedHeartAnimated from '/assets/icons/hearts/animated/winged-heart.gif';
 
@@ -101,7 +102,7 @@ const AnimeRecSelection: React.FC = () => {
 
     return (
         <div className="blurbs-dropdown">
-            <p>i want...</p>
+            <p>i want to watch...</p>
             <select name={selectedRec.name} onChange={handleChange}>
                 {recs.map((rec) => (
                     <option key={rec.name} value={rec.name}>
@@ -123,6 +124,7 @@ const Blurbs: React.FC = () => {
     return (
         <div className="blurbs">
             <h3>° panda's blurbs °</h3>
+            <img src={welcomePuppy} />
             {decoratorImageRows("top")}
             <img className="blurbs-image-embed" style={{ width: '30%' }} src={maobabieBoba} alt="maobabie boba illustration" />
             <h4>° about me °</h4>
