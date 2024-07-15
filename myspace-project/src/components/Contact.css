@@ -34,7 +34,7 @@
 }
 
 .contact-box button:hover {
-    cursor: url('/assets/cursors/cursor-heart-convo.png'), auto;
+    cursor: url("/assets/cursors/cursor-heart-convo.png"), auto;
 }
 
 .contact-box button:hover:after {

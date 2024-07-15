@@ -52,13 +52,13 @@
 }
 
 .header-search button {
-    background-color: #e0FFFF;
+    background-color: #e0ffff;
     cursor: pointer;
     font-size: 0.8rem;
 }
 
 .header-search button:hover {
-    cursor: url('/assets/cursors/cursor-heart-convo.png'), auto;
+    cursor: url("/assets/cursors/cursor-heart-convo.png"), auto;
 }
 
 .header-user-actions {

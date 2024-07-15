@@ -11,7 +11,7 @@
     margin-top: 0px;
     padding: 5px;
     border: 2px dotted var(--border-pink);
-    background-color: var(--background-pink)
+    background-color: var(--background-pink);
 }
 
 .friend-row {
@@ -36,7 +36,6 @@
     margin-right: auto;
     width: 100px;
 }
-
 
 @media screen and (max-width: 480px) {
     .friend-row {

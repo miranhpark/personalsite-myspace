@@ -6,12 +6,11 @@
     text-align: center;
 }
 
-
 .embed h3 {
     font-size: 1.4rem;
     padding: 5px;
     border: 2px dotted var(--border-pink);
-    background-color: var(--background-pink)
+    background-color: var(--background-pink);
 }
 
 .youtube-embed {

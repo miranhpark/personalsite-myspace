@@ -43,7 +43,7 @@
 }
 
 .about-profile-image img:hover {
-    cursor: url('/assets/cursors/cursor-heart-convo.png'), auto;
+    cursor: url("/assets/cursors/cursor-heart-convo.png"), auto;
 }
 
 .about-view-links {
@@ -77,5 +77,5 @@
 }
 
 .about-title-text {
-    color: var(--font-purple)
+    color: var(--font-purple);
 }

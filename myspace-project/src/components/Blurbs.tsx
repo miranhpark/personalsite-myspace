@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import './Blurbs.css';
 
-import shinePink from '/assets/icons/stars/animated/shine-pink.gif';
-import wingedHeart from '/assets/icons/hearts/winged-heart.png';
-import wingedHeartAnimated from '/assets/icons/hearts/animated/winged-heart.gif';
-import pastelHearts from '/assets/icons/hearts/animated/pastel-hearts.gif';
-import bowHeart from '/assets/icons/hearts/animated/bow-heart.gif';
-import spinningHearts from '/assets/icons/hearts/animated/spinning-hearts.gif';
-import maobabieBoba from '/assets/images/maobabie-boba.webp';
-import princessMononoke from '/assets/images/princess-mononoke-humans.gif';
-import sleepyPrincess from '/assets/images/sleepy-princess.gif';
-import ghostInTheShell from '/assets/images/ghost-in-the-shell-2.gif';
-import ranni from '/assets/images/ranni.webp';
 import blueHeart from '/assets/icons/hearts/classic-blue.gif';
 import blueStar from '/assets/icons/stars/animated/medium-blue.gif';
+import bowHeart from '/assets/icons/hearts/animated/bow-heart.gif';
+import ghostInTheShell from '/assets/images/ghost-in-the-shell-2.gif';
+import maobabieBoba from '/assets/images/maobabie-boba.webp';
+import pastelHearts from '/assets/icons/hearts/animated/pastel-hearts.gif';
+import princessMononoke from '/assets/images/princess-mononoke-humans.gif';
+import ranni from '/assets/images/ranni.webp';
+import shinePink from '/assets/icons/stars/animated/shine-pink.gif';
 import shinePurple from '/assets/icons/bows/animated/pink-charm.gif';
+import sleepyPrincess from '/assets/images/sleepy-princess.gif';
+import spinningHearts from '/assets/icons/hearts/animated/spinning-hearts.gif';
+import wingedHeart from '/assets/icons/hearts/winged-heart.png';
+import wingedHeartAnimated from '/assets/icons/hearts/animated/winged-heart.gif';
 
 function decoratorImageRows(side: string) {
     if (side === "top") {

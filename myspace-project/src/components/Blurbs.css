@@ -55,7 +55,7 @@ ul li::marker {
 .blurbs-text ol a,
 ul a {
     line-height: 1em;
-    color: var(--font-pink)
+    color: var(--font-pink);
 }
 
 .blurbs-dropdown,
@@ -66,7 +66,8 @@ ul a {
     align-items: center;
     margin: 7px;
     font-size: 1.2rem;
-    font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;
+    font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif,
+        helvetica;
 }
 
 .blurbs-dropdown select {
@@ -81,7 +82,8 @@ ul a {
     margin-bottom: 7px;
     padding: 5px;
     font-size: 1.1rem;
-    font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;
+    font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif,
+        helvetica;
 }
 
 .blurbs-dropdown option {
@@ -99,7 +101,8 @@ ul a {
     padding: 10px;
     margin-top: 10px;
     color: var(--font-purple);
-    font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;
+    font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif,
+        helvetica;
 }
 
 .blurbs-ranni {

@@ -4,30 +4,30 @@ import './About.css';
 import shinePink from '/assets/icons/stars/animated/shine-purple.gif';
 
 const profileImages = [
-    'sailor-moon-writing.webp',
-    'sailor-moon-computer.gif',
-    'pixel-hatsune-miku.gif',
-    'tired-mai-sakurajima.gif',
+    'berserk.png',
+    'maobabie-job.jpg',
+    'marin-kitagawa-hehe.gif',
     'miku-rabbit-hole-1.gif',
     'miku-rabbit-hole-2.gif',
-    'marin-kitagawa-hehe.gif',
-    'the-tale-of-genji.gif',
-    'shimoneta-hyouka-fuwa.gif',
-    'maobabie-job.jpg',
-    'berserk.png',
+    'pixel-hatsune-miku.gif',
     'ranni-pjs.jpg',
+    'sailor-moon-computer.gif',
+    'sailor-moon-writing.webp',
+    'shimoneta-hyouka-fuwa.gif',
     'sleepy-princess-sparkle.gif',
     'sleepy-princess-wolf.gif',
+    'the-tale-of-genji.gif',
+    'tired-mai-sakurajima.gif',
 ]
 
 const statuses = [
-    'welcome to my brainrot 😘',
     '🍞 idiot sandwich 🍞',
-    'i 🫶 wolves',
-    'anime profile pic btw 💅',
     '🐰 love bla bla bla',
-    'y2k baby 💿',
+    'anime profile pic btw 💅',
+    'i 🫶 wolves',
     'i\'m an angel with a shotgun (nightcore mix)',
+    'welcome to my brainrot 😘',
+    'y2k baby 💿',
 ]
 
 function aboutTitle(title: string, titleText: string) {

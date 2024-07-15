@@ -1,36 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
 
 @font-face {
-  font-family: 'Rainy Hearts';
-  src: url('/assets/rainyhearts.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Apple ][';
-  src: url('/assets/Apple ][.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'handy00';
-  src: url('/assets/handy00.ttf') format('truetype');
+    font-family: "Rainy Hearts";
+    src: url("/assets/rainyhearts.ttf") format("truetype");
 }
 
 :root {
-  --border-pink: #fcc7e5;
-  --border-purple: rgb(175, 148, 255);
-  --background-pink: rgba(255, 234, 246, 0.85);
-  --background-light-pink: rgba(255, 246, 251, 0.75);
-  --background-dark-pink: #ff8bb6;
-  --header-pink: #ff90b5;
-  --header-purple: rgb(187, 164, 255, 0.8);
-  --font-pink: #f54c9b;
-  /* --font-purple: #E0CDFB; */
-  --font-purple: #834feb;
-  --tooltip-hover: rgba(255, 227, 243, 0.7);
+    --border-pink: #fcc7e5;
+    --border-purple: rgb(175, 148, 255);
+    --background-pink: rgba(255, 234, 246, 0.85);
+    --background-light-pink: rgba(255, 246, 251, 0.75);
+    --background-dark-pink: #ff8bb6;
+    --header-pink: #ff90b5;
+    --header-purple: rgb(187, 164, 255, 0.8);
+    --font-pink: #f54c9b;
+    /* --font-purple: #e0cdfb; */
+    --font-purple: #834feb;
+    --tooltip-hover: rgba(255, 227, 243, 0.7);
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body,
@@ -40,160 +30,159 @@ p,
 div,
 textarea,
 button {
-  font-family: "Pixelify Sans", verdana, arial, sans-serif, helvetica;
-  font-size: 0.9rem;
-  color: var(--font-purple);
-  font-weight: normal;
+    font-family: "Pixelify Sans", verdana, arial, sans-serif, helvetica;
+    font-size: 0.9rem;
+    color: var(--font-purple);
+    font-weight: normal;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
-  font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;
+    font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif,
+        helvetica;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  cursor: url('/assets/cursors/cursor-winged-heart.png'), auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    cursor: url("/assets/cursors/cursor-winged-heart.png"), auto;
 }
 
-
 a:hover {
-  cursor: url('/assets/cursors/cursor-heart-convo.png'), auto;
+    cursor: url("/assets/cursors/cursor-heart-convo.png"), auto;
 }
 
 .profile-layout {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
 }
 
 .left-column {
-  padding-left: 5px;
+    padding-left: 5px;
 }
 
 .left-column,
 .right-column {
-  width: 100%;
+    width: 100%;
 }
 
 .myspace-page {
-  width: 90%;
-  margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.3);
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .myspace-url {
-  font-size: 0.8rem;
-  border: 2px dotted var(--border-pink);
-  background-color: var(--background-pink);
-  margin-top: 10px;
-  padding: 0px 0px 13px 3px;
-  line-height: 0px;
+    font-size: 0.8rem;
+    border: 2px dotted var(--border-pink);
+    background-color: var(--background-pink);
+    margin-top: 10px;
+    padding: 0px 0px 13px 3px;
+    line-height: 0px;
 }
 
 .myspace-url a {
-  color: var(--font-purple);
-  text-decoration: none;
+    color: var(--font-purple);
+    text-decoration: none;
 }
 
 .myspace-url a:hover:after {
-  content: "you're already here 💖";
-  position: absolute;
-  margin-left: -75px;
-  margin-top: -30px;
-  background: rgba(252, 199, 229, 0.5);
-  padding: 15px;
-  border: 2px dotted var(--border-pink);
-  border-radius: 3px;
-  z-index: 1;
-  width: auto;
-  font-size: 0.8rem;
-  color: var(--font-purple);
+    content: "you're already here 💖";
+    position: absolute;
+    margin-left: -75px;
+    margin-top: -30px;
+    background: rgba(252, 199, 229, 0.5);
+    padding: 15px;
+    border: 2px dotted var(--border-pink);
+    border-radius: 3px;
+    z-index: 1;
+    width: auto;
+    font-size: 0.8rem;
+    color: var(--font-purple);
 }
 
 .myspace-url h4 {
-  font-size: 1.1rem;
+    font-size: 1.1rem;
 }
 
 .network-status {
-  padding: 20px;
-  margin-bottom: 10px;
-  font-size: 0.9rem;
-  color: var(--font-purple);
-  font-weight: bold;
-  text-align: center;
-  line-height: 20px;
-  border: 2px dotted var(--border-pink);
-  background-color: var(--background-pink);
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: var(--font-purple);
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    border: 2px dotted var(--border-pink);
+    background-color: var(--background-pink);
 }
 
 h1,
 h3 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 @media screen and (max-width: 480px) {
-  body {
-    margin: 10px;
-  }
+    body {
+        margin: 10px;
+    }
 
-  .myspace-page {
-    width: 100%;
-    margin: 0 auto;
-  }
+    .myspace-page {
+        width: 100%;
+        margin: 0 auto;
+    }
 
-  .left-column {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+    .left-column {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-  .right-column {
-    padding-left: 20px;
-    padding-right: 20px;
-    flex-grow: 1;
-  }
+    .right-column {
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-grow: 1;
+    }
 
-  .network-status {
-    margin-top: 30px;
-  }
+    .network-status {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    margin: 10px;
-  }
+    body {
+        margin: 10px;
+    }
 
-  .profile-layout {
-    flex-wrap: nowrap;
-  }
+    .profile-layout {
+        flex-wrap: nowrap;
+    }
 
-  .left-column {
-    width: 450px;
-    padding-right: 20px;
-  }
+    .left-column {
+        width: 450px;
+        padding-right: 20px;
+    }
 
-  .right-column {
-    flex-grow: 1;
-  }
+    .right-column {
+        flex-grow: 1;
+    }
 
-  ::-webkit-scrollbar {
-    height: 12px;
-    width: 17px;
-    background: #FFF7F9;
-    background-image: url(/assets/backgrounds/purple-moon.gif);
-    border: 1px solid var(--border-purple);
-  }
+    ::-webkit-scrollbar {
+        height: 12px;
+        width: 17px;
+        background: #fff7f9;
+        background-image: url(/assets/backgrounds/purple-moon.gif);
+        border: 1px solid var(--border-purple);
+    }
 
-  ::-webkit-scrollbar-thumb {
-    border: 2px solid var(--border-purple);
-    background-color: var(--header-purple);
-    -webkit-border-radius: 0ex;
-    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.75)
-  }
+    ::-webkit-scrollbar-thumb {
+        border: 2px solid var(--border-purple);
+        background-color: var(--header-purple);
+        -webkit-border-radius: 0ex;
+        -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.75);
+    }
 
-  ::-webkit-scrollbar-corner {
-    background: rgba(0, 0, 0, 0)
-  }
-
+    ::-webkit-scrollbar-corner {
+        background: rgba(0, 0, 0, 0);
+    }
 }
