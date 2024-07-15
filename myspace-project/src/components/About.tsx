@@ -5,7 +5,7 @@ import shinePink from '/assets/icons/stars/animated/shine-purple.gif';
 
 const profileImages = [
     'sailor-moon-writing.webp',
-    'sailor-moon-computer.png',
+    'sailor-moon-computer.gif',
     'pixel-hatsune-miku.gif',
     'tired-mai-sakurajima.gif',
     'miku-rabbit-hole-1.gif',
@@ -15,7 +15,9 @@ const profileImages = [
     'shimoneta-hyouka-fuwa.gif',
     'maobabie-job.jpg',
     'berserk.png',
-    'ranni-pjs.jpg'
+    'ranni-pjs.jpg',
+    'sleepy-princess-sparkle.gif',
+    'sleepy-princess-wolf.gif',
 ]
 
 const statuses = [

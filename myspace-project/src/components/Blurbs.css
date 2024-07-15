@@ -6,17 +6,17 @@
     text-align: center;
 }
 
-
 .blurbs h3 {
     font-size: 1.4rem;
     padding: 5px;
     border: 2px dotted var(--border-pink);
-    background-color: var(--background-pink)
+    background-color: var(--background-pink);
 }
 
 .blurbs h4 {
     font-size: 1.4rem;
     margin: 10px;
+    margin-top: 30px;
 }
 
 .blurbs-image-row {
@@ -42,34 +42,84 @@
     line-height: 1.2em;
 }
 
-.blurbs-text ol {
+.blurbs-text ol,
+ul {
     margin-left: -40px;
 }
 
-.blurbs-text ol li::marker {
+.blurbs-text ol li::marker,
+ul li::marker {
     color: var(--font-pink);
 }
 
-.blurbs-text a {
+.blurbs-text ol a,
+ul a {
     line-height: 1em;
     color: var(--font-pink)
 }
 
-.blurbs-link {
-    font-size: 1.3rem;
-    margin-bottom: 15px;
+.blurbs-dropdown,
+.blurbs-dropdown p {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7px;
+    font-size: 1.2rem;
+    font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;
+}
+
+.blurbs-dropdown select {
+    text-align: center;
+    width: auto;
+    background-color: var(--background-pink);
+    color: var(--font-purple);
+    border: 1px solid var(--background-dark-pink);
+    outline-color: var(--background-dark-pink);
+    outline-width: 1px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 5px;
+    font-size: 1.1rem;
+    font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;
+}
+
+.blurbs-dropdown option {
+    background-color: var(--background-pink);
+}
+
+.blurbs-dropdown img {
+    margin-top: 22px;
+}
+
+.blurbs-dropdown a {
+    font-size: 1.2rem;
+    background-color: var(--background-pink);
+    border: 2px dotted var(--background-dark-pink);
+    padding: 10px;
+    margin-top: 10px;
     color: var(--font-purple);
     font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;
 }
 
-.blurbs-link a {
-    line-height: 2em;
-    color: rgb(0, 187, 255);
-    margin: 5px;
-    font-family: "Rainy Hearts", "Pixelify Sans", verdana, arial, sans-serif, helvetica;
+.blurbs-ranni {
+    margin: 10px;
+    margin-bottom: 20px;
 }
 
-.blurbs-link img {
+.blurbs-ranni a {
+    margin: 5px;
+    color: rgb(0, 187, 255);
+    font-weight: 700;
+}
+
+.blurbs-ranni-embed img {
+    width: 50%;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.blurbs-ranni-image img {
     margin: 2px;
     margin-bottom: -3px;
     width: 20px;
