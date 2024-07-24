@@ -26,9 +26,15 @@ const statuses = [
     '🐰 love bla bla bla',
     'anime profile pic btw 💅',
     'i 🫶 wolves',
-    'i\'m an angel with a shotgun (nightcore mix)',
+    'i\'m an angel with a shotgun (nightcore mix) 🎻',
     'welcome to my brainrot 😘',
     'y2k baby 💿',
+    '🎀 avid girlfailure 🎀',
+    'may all your delulu become trululu 🌠',
+    'i\'m a pink pony girl and i dance at the club 🌈',
+    'love with your heart, use your head for everything else 💝',
+    'sad girls club 😢 💔',
+    '🌟私はスター🌟',
 ]
 
 function aboutTitle(title: string, titleText: string) {

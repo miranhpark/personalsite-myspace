@@ -59,6 +59,9 @@ function fragrances() {
                 <li><a href="https://www.etatlibredorange.com/products/you-or-someone-like-you">etat libre d'orange - you or someone like you</a></li>
                 <li><a href="https://sergelutens.com/products/de-profundis-eau-de-parfum-spray">serge lutens - de profundis</a></li>
                 <li><a href="https://sergelutens.com/products/musc-koublai-khan">serge lutens - muscs koublaï khan</a></li>
+                <li><a href="https://marcantoinebarrois.com/en/products/ganymede">marc-antoine barrois - ganymede</a></li>
+                <li><a href="https://blackbird.black/products/y06-s-eau-de-parfum">blackbird - y06-s</a></li>
+                <li><a href="https://www.pinewardperfume.com/product/eldritch">pineward perfumes - eldritch</a></li>
             </ol>
         </div>
     )
@@ -81,11 +84,11 @@ const recs = [
     { question: 'a fantastic and cerebral hard sci-fi', name: 'steins;gate', url: 'https://myanimelist.net/anime/9253/Steins_Gate' },
     { question: 'it\'s always sunny but a fantasy anime', name: 'konosuba', url: 'https://myanimelist.net/anime/30831/Kono_Subarashii_Sekai_ni_Shukufuku_wo' },
     { question: 'what cyberpunk 2077 should have been', name: 'dorohedoro', url: 'https://myanimelist.net/anime/38668/Dorohedoro' },
-    { question: 'cute girls doing cute things and also i have social anxiety', name: 'bocchi the rock', url: 'https://myanimelist.net/anime/47917/Bocchi_the_Rock' },
+    { question: 'cute girls doing cute things and i also have social anxiety', name: 'bocchi the rock', url: 'https://myanimelist.net/anime/47917/Bocchi_the_Rock' },
     { question: '"i too had terrible parents"', name: 'neon genesis evangelion', url: 'https://myanimelist.net/anime/30/Shinseiki_Evangelion' },
     { question: 'incredible action animation and wild typography', name: 'kill la kill', url: 'https://myanimelist.net/anime/18679/Kill_la_Kill' },
     { question: 'the subtle difficulty of human connection', name: 'rascal does not dream of a dreaming girl', url: 'https://myanimelist.net/anime/38329/Seishun_Buta_Yarou_wa_Yumemiru_Shoujo_no_Yume_wo_Minai' },
-    { question: 'to laugh, cry, and laugh again', name: 'hinamatsuri', url: 'https://myanimelist.net/anime/36296/Hinamatsuri' },
+    { question: 'something that will make me laugh, cry, and laugh again', name: 'hinamatsuri', url: 'https://myanimelist.net/anime/36296/Hinamatsuri' },
     { question: 'an episodic art piece in outer space', name: 'cowboy bebop', url: 'https://myanimelist.net/anime/1/Cowboy_Bebop' },
     { question: 'the best of the best', name: 'mob psycho 100', url: 'https://myanimelist.net/anime/32182/Mob_Psycho_100' },
 ];
