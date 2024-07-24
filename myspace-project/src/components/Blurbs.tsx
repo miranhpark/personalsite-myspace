@@ -59,6 +59,9 @@ function fragrances() {
                 <li><a href="https://www.etatlibredorange.com/products/you-or-someone-like-you">etat libre d'orange - you or someone like you</a></li>
                 <li><a href="https://sergelutens.com/products/de-profundis-eau-de-parfum-spray">serge lutens - de profundis</a></li>
                 <li><a href="https://sergelutens.com/products/musc-koublai-khan">serge lutens - muscs koublaï khan</a></li>
+                <li><a href="https://marcantoinebarrois.com/en/products/ganymede">marc-antoine barrois - ganymede</a></li>
+                <li><a href="https://blackbird.black/products/y06-s-eau-de-parfum">blackbird - y06-s</a></li>
+                <li><a href="https://www.pinewardperfume.com/product/eldritch">pineward perfumes - eldritch</a></li>
             </ol>
         </div>
     )

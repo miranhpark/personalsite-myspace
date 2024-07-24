@@ -29,6 +29,9 @@ const statuses = [
     'i\'m an angel with a shotgun (nightcore mix)',
     'welcome to my brainrot 😘',
     'y2k baby 💿',
+    '🎀 avid girlfailure 🎀',
+    'may all your delulu become trululu 🌠',
+    'i\'m a pink pony girl and i dance at the club 🌈'
 ]
 
 function aboutTitle(title: string, titleText: string) {
